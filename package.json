@@ -1,0 +1,36 @@
+{
+  "name": "react-team-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@line/liff": "^2.21.0",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.3",
+    "@reduxjs/toolkit": "^1.8.5",
+    "japanese-holidays": "^1.0.10",
+    "moment": "^2.29.4",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/japanese-holidays": "^1.0.1",
+    "@types/node": "18.7.6",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "12.2.5",
+    "prettier": "^2.7.1",
+    "typescript": "4.7.4"
+  }
+}
