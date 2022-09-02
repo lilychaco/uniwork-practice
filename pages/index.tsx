@@ -1,6 +1,7 @@
 import Head from "next/head";
 import App from "../App";
 import styles from "../styles/Home.module.css";
+import { Box } from @mui/material;
 
 import type { Liff } from "@line/liff";
 import type { NextPage } from "next";
@@ -36,6 +37,10 @@ const Home: NextPage<{
         >
           LIFF Documentation
         </a>
+        <Box>
+          <img src="../images/iriomote.jpg" alt="" />
+        </Box>
+
       </main>
     </div>
   );
